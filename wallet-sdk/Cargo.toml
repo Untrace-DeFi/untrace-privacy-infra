@@ -1,0 +1,19 @@
+[package]
+name = "untrace-wallet-sdk"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+untrace-common = { path = "../common" }
+untrace-privacy-client = { path = "../privacy-client" }
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+bs58 = { workspace = true }
+ed25519-dalek = { workspace = true }
+rand = { workspace = true }

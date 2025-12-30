@@ -1,0 +1,16 @@
+[package]
+name = "untrace-governance"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+untrace-common = { path = "../common" }
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+anchor-lang = { workspace = true }
+borsh = { workspace = true }
+serde = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }

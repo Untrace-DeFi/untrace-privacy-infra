@@ -1,0 +1,14 @@
+[package]
+name = "untrace-common"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+solana-program = { workspace = true }
+borsh = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+curve25519-dalek = { workspace = true }
+sha3 = { workspace = true }
+blake3 = { workspace = true }
