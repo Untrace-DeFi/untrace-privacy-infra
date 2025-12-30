@@ -1,4 +1,4 @@
-# Untrace Protocol - Rust/Solana Implementation
+# Untrace Protocol - Rust/Solana Implementationd
 
 A comprehensive privacy-focused blockchain protocol built on Solana with modular architecture for enterprise and developer adoption.
 
